@@ -1,0 +1,10 @@
+platform :ios, "8.0"
+
+pod 'AFNetworking'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'UMengSocialCOM'
+target :"Melife" do
+end

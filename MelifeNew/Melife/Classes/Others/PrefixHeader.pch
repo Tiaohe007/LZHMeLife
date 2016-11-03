@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  Melife
+//
+//  Created by 刘志恒 on 16/10/17.
+//  Copyright © 2016年 Jack. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "LZHConst.h"
+
+#import "UIImage+LZHCategory.h"
+
+#import "UIView+LZHFrame.h"
+
+#define APPKEY @"1898ca05ddef0"
+
+#define APPSECRET @"8d57c8ddad422f67b86ab81141ef4fa7"
+
+#define  LZHScreenW [UIScreen mainScreen].bounds.size.width
+#define  LZHScreenH [UIScreen mainScreen].bounds.size.height
+#define LZHRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define URL @"http://m.api.zhe800.com/v5/deals"
+#define RURL @"http://m.api.zhe800.com/v6/brand/getdealsbyid"
+#define MapUrl @"http://restapi.amap.com/v3/place/around?language=zh&page=1&children=0&types=&sortrule=distance&radius=5000&offset=20&location=114.477180%2C38.041985&extensions=all&keywords=%E8%B4%AD%E7%89%A9&key=447492420107ff9d115d63cf2d4a444d&scode=f959078ad0d0b051ee6c66ca3bd258da&ts=1477289372811"
+
+#define NowURL @"http://restapi.amap.com/v3/geocode/regeo?extensions=base&key=447492420107ff9d115d63cf2d4a444d&location=114.477180%2C38.041985&language=zh&radius=100000&scode=30239bdbf5ecc49c1a3c958269aa5740&ts=1477289372912"
+#endif /* PrefixHeader_pch */
